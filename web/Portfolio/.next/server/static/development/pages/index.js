@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,22 +109,23 @@ var _jsxFileName = "/Users/starshows/Desktop/portfolio/web/Portfolio/comps/CoolL
 
 
 const layoutStyle = {
-  margin: 20,
   padding: 20,
-  border: '1px solid #DDD'
+  border: '1px solid #DDD',
+  backgroundColor: '#000000',
+  color: '#ffffff'
 };
 
 const Layout = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   style: layoutStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 11
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 12
   },
   __self: undefined
 }), props.children); // Export the layout
@@ -151,62 +152,27 @@ var _jsxFileName = "/Users/starshows/Desktop/portfolio/web/Portfolio/comps/Heade
 
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  color: '#000000'
+};
+const headerStyle = {
+  backgroundColor: '#ffffff',
+  borderRadius: '30px',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: '40px'
 };
 
 const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: headerStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 17
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  style: linkStyle,
-  title: "Go to the home page",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/portfolio",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  style: linkStyle,
-  title: "Alex's portfolio",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/tools",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  style: linkStyle,
-  title: "Useful scrits, tools and algorythms",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "Tools")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/about",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
@@ -214,10 +180,70 @@ const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   style: linkStyle,
-  title: "About Alex",
+  title: "Go to the home page",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  style: linkStyle,
+  title: "Alex's portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/newsblock",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  style: linkStyle,
+  title: "Just a random newsfeeds from an API",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "News")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/tools",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  style: linkStyle,
+  title: "Useful scripts, tools and algorithms",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Tools")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  style: linkStyle,
+  title: "About Alex",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
   },
   __self: undefined
 }, "About")));
@@ -3029,50 +3055,97 @@ var _jsxFileName = "/Users/starshows/Desktop/portfolio/web/Portfolio/pages/index
 
 
 
+const cardStyle = {
+  backgroundColor: "#711324",
+  border: "solid 1px #e0e0e0",
+  borderRadius: "4px",
+  padding: "5px",
+  color: '#ffffff'
+};
+const cardLayout = {
+  display: "grid",
+  gridGap: "10px 20px"
+};
+const cardLayoutInner = {
+  cursor: "pointer"
+};
 
 const Index = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 21
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 22
   },
   __self: undefined
-}, "Batman TV Shows"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+}, "Batman TV Shows"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: cardLayout,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 23
   },
   __self: undefined
-}, props.shows.map(show => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  key: show.id,
+}, props.shows.map(show => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: cardLayoutInner,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 25
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/p/[id]",
-  as: `/p/${show.id}`,
+  href: "/newsblocks/[id]",
+  as: `/newsblocks/${show.id}`,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 26
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  key: show.id,
+  style: cardStyle,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  href: "/newsblocks/[id]",
+  as: `/newsblocks/${show.id}`,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: show.image.medium,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  href: "/newsblocks/[id]",
+  as: `/newsblocks/${show.id}`,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 32
   },
   __self: undefined
-}, show.name))))));
+}, show.name)))))))); // Add a static async function to fetch data from tvmaze and return them as props.
+
 
 Index.getInitialProps = async function () {
-  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()('https://api.tvmaze.com/search/shows?q=batman');
+  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("https://api.tvmaze.com/search/shows?q=batman");
   const data = await res.json();
   console.log(`Show data fetched. Count: ${data.length}`);
   return {
@@ -3084,7 +3157,7 @@ Index.getInitialProps = async function () {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
