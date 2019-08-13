@@ -12,7 +12,6 @@ const domains = [
     "test.mountsinai.org",
     "google.com"
   ];
-export class CountDomains {
 
   
   //Developed by Avi (Alex) Tannenbaum 2019
@@ -98,4 +97,3 @@ export class CountDomains {
     )
   );
   console.log(finalResult);
-}

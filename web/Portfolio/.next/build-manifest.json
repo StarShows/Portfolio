@@ -4,10 +4,6 @@
     "static/development/dll/dll_92fa9139568d8c3d8f78.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -16,11 +12,19 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/newsblocks/[id]": [
+    "/tools": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/tools/AnimatedSvgs": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/tools/[tool]": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

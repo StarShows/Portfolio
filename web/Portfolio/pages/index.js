@@ -17,6 +17,8 @@ const cardLayout = {
 const cardLayoutInner = {
   cursor: "pointer"
 };
+
+
 const Index = props => (
   <Layout>
     <h1>Batman TV Shows</h1>

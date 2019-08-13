@@ -1,5 +1,5 @@
 import Layout from "../comps/CoolLayout";
-import Link from 'next/link';
+import Link from "next/link";
 
 const ToolsLink = props => (
   <li>
@@ -17,6 +17,11 @@ export default function Tools() {
         <ToolsLink tool="Weather" />
         <ToolsLink tool="Domain Counter" />
         <ToolsLink tool="Translation" />
+        <Link href="/tools/AnimatedSvgs">
+          <a title="Animated SVGs collection">
+            Animated SVGs
+          </a>
+        </Link>
       </ul>
     </Layout>
   );
