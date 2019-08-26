@@ -1,8 +1,18 @@
-import Domaincount from 'functions/domain_count';
-    
 
-export class Scripts {
-    constructor(domaincount){
-        this.domaincount = Domaincount;
-    }
+
+//Navigate to my any url
+function navigateTo(url, NewPage) {
+
+  console.log('Navigating to: ', url, NewPage);
+  if (NewPage !== undefined) {
+    window.open(
+      url,
+      '_blank'
+    );
+  }
+  else {
+    window.open(
+      url
+    );
+  }
 }
