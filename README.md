@@ -9,10 +9,10 @@
 
 ### Current skills in this project
 
-As of date: August 12 2019
+As of date: August 26 2019
 
 Skill Name    | Progress        | Last commit description
 ------------- | -------------   | -------------------------
-Next.js       | In progress 86% | Added styled component boxes that style cards with info from a batman REST API.
-React.js      | ToDo 0%         |
+Next.js       | In progress 89% | Added support for scss and npm .
+React.js      | In progress 13%         |
 Surge.sh      | In Prod 100%         | Pushed the base code to my surge domain www.avitannenbaum.com 
