@@ -7,7 +7,13 @@
 
 ### PS: I spend my sundays updating this project and improving my front end and react skills. so check back on sundays to see code improvements.
 
+# A Production version of my react next js restapi practice project is available at:
+https://portfolio-react.starshows.now.sh
+
+
 ### Current skills in this project
+
+
 
 As of date: August 26 2019
 

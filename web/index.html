@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
     <meta charset="utf-8">
     <title>Alex (Avi) Tannenbaum</title>
@@ -16,19 +19,22 @@
             </a>
         </section>
         <h1 class="header"> Welcome to Alex (Avi) Tannenbaum's portfolio website </h1>
+        <h1 class="header mobile_only">Wow! So responsive! </h1>
+
         <h2 class="header h2"> Im a full stack javascript engineer. </h2>
         <h3 class="header_third">Under construction</h3>
         <section class="content">
             <div class="portfolio_item" tabindex="1">
-                Meanwhile checkout my <button class="button" title="Avi Tannenbaum's Github"
-                    onClick="navigateTo('https://github.com/StarShows/Portfolio/', true)">Github</button> portfolio
+                Meanwhile checkout my <div class="button" title="Avi Tannenbaum's Github"
+                    onClick="navigateTo('https://github.com/StarShows/Portfolio/', true)">Github</div> portfolio
                 repository, it has all the latest code for this portfolio project, Including a new React.js front end
                 and node.js backend im developing for this.
             </div>
             <div class="portfolio_item" tabindex="2">
-                <p class="paragraph"> Also, heres a copy of my most up to date CV: <button class="button"
-                        title="Avi Tannenbaum's CV" onClick="navigateTo('/files/AlexResumeaug172019.docx')">Download my
-                        resume</button>.</p>
+                <p class="paragraph"> Also, heres a copy of my most up to date CV</p> 
+                <div class="button"
+                    title="Avi Tannenbaum's CV" onClick="navigateTo('/files/AlexResumeaug172019.docx')">Download my
+                    resume</div>
             </div>
             <div class="portfolio_item" tabindex="3">
                 <p class="paragraph"> Here is my linkedIn profile: <a
@@ -47,6 +53,9 @@
         </footer>
         <!-- For faster loading, keep the script in the bottom-->
     </section>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42339063-2"></script>
     <script src="js/scripts.js"></script>
 </body>
 

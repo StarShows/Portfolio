@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-server-side",
+  "version": "1.0.0",
+  "description": "Server side to provie rest api backed data for the client side server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StarShows/Portfolio/tree/Dev/server"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "portfolio"
+  ],
+  "author": "Alex (Avi)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

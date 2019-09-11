@@ -50,7 +50,7 @@ function getPosts() {
       { id: 'previous-projects', title: 'Projects made by Avi Tannenbaum'}
   ];
 }
-export default function NewsFeed() {
+export function NewsFeed() {
   return (
 <Layout>
   <h1>Avi's NewsFeed</h1>
@@ -65,7 +65,7 @@ export default function NewsFeed() {
   </ul>
       {/* The next.js way of styling */}
       <style jsx>
-        h1,
+       {` h1,
         a {
           font-family: 'Arial';
         }
@@ -77,6 +77,7 @@ export default function NewsFeed() {
         li {
           list-style: none;
         }
+        `}
       </style>
 </Layout>
   );

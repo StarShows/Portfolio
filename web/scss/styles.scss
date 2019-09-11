@@ -1,25 +1,33 @@
 .link {
   cursor: pointer;
 }
+$text-color: #fff;
 .container {
-  //background: url(../images/background.png) no-repeat center center fixed;
+  background-image: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(199,146,115,1);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  color: #000;
+  color: $text-color;
   width: 100%;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
   &_inner {
     border: solid 2px #000;
     border-radius: 4px;
     padding: 23px;
     margin: 25px;
-    .footer{
-        .hint{
-            font-size: 12px;
-        }
+    .footer {
+      .hint {
+        font-size: 12px;
+      }
     }
     .avatar {
       display: flex;
@@ -38,6 +46,9 @@
     }
   }
   .header {
+    &.mobile_only {
+      display: none;
+    }
     background-color: rgba(150, 150, 150, 0.28);
     border-radius: 4px;
     border: solid 2px rgba(150, 150, 150, 0.28);
@@ -46,6 +57,7 @@
     justify-content: center;
     font-family: sans-serif;
     text-align: center;
+    color: #000;
     margin-bottom: 16px;
     &.h2 {
       font-size: 20px;
@@ -54,9 +66,25 @@
   }
   .content {
     .portfolio_item {
+      .button {
+        width: auto;
+        font-family: sans-serif;
+        padding: 10px;
+        background-color: rgba(236, 36, 58,0.6);
+        transition: background-color 0.3s;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-size: 20px;
+        &:hover {
+          background-color: rgba(226, 36, 58 ,0.8);
+        }
+      }
       .paragraph {
         .link {
-          color: rgba(0, 0, 0, 0.788);
+          color: rgba(255, 255, 255, 0.788);
           font-size: 16px;
           cursor: pointer;
           text-decoration: underline;
@@ -79,4 +107,17 @@
   }
 }
 @media screen and (max-width: 736px) {
+  .container {
+    &_inner {
+      .header {
+        &.mobile_only {
+          display: flex;
+        }
+      }
+      .content {
+        .portfolio_item {
+        }
+      }
+    }
+  }
 }
