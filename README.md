@@ -15,10 +15,10 @@ https://portfolio-react.starshows.now.sh
 
 
 
-As of date: August 26 2019
+As of date: Sept 11 2019
 
 Skill Name    | Progress        | Last commit description
 ------------- | -------------   | -------------------------
-Next.js       | In progress 89% | Added support for scss and npm .
-React.js      | In progress 13%         |
+Next.js       | Deployed to prod 100% | Added support for scss and npm .
+React.js      | In progress 14%         |
 Surge.sh      | In Prod 100%         | Pushed the base code to my surge domain www.avitannenbaum.com 

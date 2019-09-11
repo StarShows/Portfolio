@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/newsblock.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/tools.js"],{
 
 /***/ "./comps/CoolLayout.js":
 /*!*****************************!*\
@@ -4403,21 +4403,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnewsblock&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Fnewsblock.js!./":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnewsblock&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Fnewsblock.js ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftools&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Ftools.js!./":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftools&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Ftools.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/newsblock", function() {
-      var page = __webpack_require__(/*! ./pages/newsblock.js */ "./pages/newsblock.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/tools", function() {
+      var page = __webpack_require__(/*! ./pages/tools.js */ "./pages/tools.js")
       if(true) {
-        module.hot.accept(/*! ./pages/newsblock.js */ "./pages/newsblock.js", function() {
-          if(!next.router.components["/newsblock"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/newsblock.js */ "./pages/newsblock.js")
-          next.router.update("/newsblock", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/tools.js */ "./pages/tools.js", function() {
+          if(!next.router.components["/tools"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/tools.js */ "./pages/tools.js")
+          next.router.update("/tools", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -7932,75 +7932,115 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/newsblock.js":
-/*!****************************!*\
-  !*** ./pages/newsblock.js ***!
-  \****************************/
+/***/ "./pages/tools.js":
+/*!************************!*\
+  !*** ./pages/tools.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Tools; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _comps_CoolLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../comps/CoolLayout */ "./comps/CoolLayout.js");
-var _jsxFileName = "/Users/starshows/Desktop/portfolio/web/Portfolio-react/pages/newsblock.js";
+/* harmony import */ var _comps_CoolLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../comps/CoolLayout */ "./comps/CoolLayout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/starshows/Desktop/portfolio/web/Portfolio-react/pages/tools.js";
 
 
 
 
-const Content = () => {
-  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_1__["useRouter"])(); // get title prop from query of url.
+const ToolsLink = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  href: "/tools/[tool]",
+  as: "/tools/".concat(props.tool),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, props.tool)));
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+function Tools() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
     },
-    __self: undefined
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     },
-    __self: undefined
-  }, router.query.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: this
+  }, "Useful tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
-    __self: undefined
-  }, " this is the news feed content"));
-};
-
-const Page = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}));
-
-/* harmony default export */ __webpack_exports__["default"] = (Page);
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ToolsLink, {
+    tool: "Weather",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ToolsLink, {
+    tool: "Domain Counter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ToolsLink, {
+    tool: "Translation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/tools/AnimatedSvgs",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    title: "Animated SVGs collection",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Animated SVGs"))));
+}
 
 /***/ }),
 
-/***/ 2:
-/*!*******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnewsblock&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Fnewsblock.js ***!
-  \*******************************************************************************************************************************************************************/
+/***/ 3:
+/*!***********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ftools&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Ftools.js ***!
+  \***********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnewsblock&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Fnewsblock.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnewsblock&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Fnewsblock.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftools&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Ftools.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftools&absolutePagePath=%2FUsers%2Fstarshows%2FDesktop%2Fportfolio%2Fweb%2FPortfolio-react%2Fpages%2Ftools.js!./");
 
 
 /***/ }),
@@ -8016,5 +8056,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=newsblock.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=tools.js.map
