@@ -43,27 +43,27 @@ const cardLayoutInner = {
 const Index = props => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 24
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 25
   },
   __self: undefined
 }, "Batman TV Shows"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   style: cardLayout,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 26
   },
   __self: undefined
 }, props.shows.map(show => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   style: cardLayoutInner,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 28
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -71,7 +71,7 @@ const Index = props => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElemen
   as: "/newsblocks/".concat(show.id),
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30
+    lineNumber: 29
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -79,7 +79,7 @@ const Index = props => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElemen
   style: cardStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 30
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -87,14 +87,14 @@ const Index = props => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElemen
   as: "/newsblocks/".concat(show.id),
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 31
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
   src: show.image.medium,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 32
   },
   __self: undefined
 })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -102,13 +102,13 @@ const Index = props => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElemen
   as: "/newsblocks/".concat(show.id),
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 35
   },
   __self: undefined
 }, show.name))))))));
@@ -130,21 +130,21 @@ function NewsFeed() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_comps_CoolLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     className: "jsx-4263681031",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, "Avi's NewsFeed"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "jsx-4263681031",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 56
     },
     __self: this
   }, getPosts().map(news => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
@@ -152,7 +152,7 @@ function NewsFeed() {
     className: "jsx-4263681031",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -160,20 +160,20 @@ function NewsFeed() {
     as: "/newsblocks/".concat(news.id),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     className: "jsx-4263681031",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 60
     },
     __self: this
   }, news.title))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4263681031",
     __self: this
-  }, "h1.jsx-4263681031,a.jsx-4263681031{font-family:'Arial';}ul.jsx-4263681031{padding:0;}li.jsx-4263681031{list-style:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGFyc2hvd3MvRGVza3RvcC9wb3J0Zm9saW8vd2ViL1BvcnRmb2xpby1yZWFjdC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRVEsQUFHK0IsQUFJVixBQUlNLFVBSGxCLE1BSUEsSUFSQSIsImZpbGUiOiIvVXNlcnMvc3RhcnNob3dzL0Rlc2t0b3AvcG9ydGZvbGlvL3dlYi9Qb3J0Zm9saW8tcmVhY3QvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gXCIuLi9jb21wcy9Db29sTGF5b3V0XCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgZmV0Y2ggZnJvbSBcImlzb21vcnBoaWMtdW5mZXRjaFwiO1xuXG5jb25zdCBjYXJkU3R5bGUgPSB7XG4gIGJhY2tncm91bmRDb2xvcjogXCIjNzExMzI0XCIsXG4gIGJvcmRlcjogXCJzb2xpZCAxcHggI2UwZTBlMFwiLFxuICBib3JkZXJSYWRpdXM6IFwiNHB4XCIsXG4gIHBhZGRpbmc6IFwiNXB4XCIsXG4gIGNvbG9yOiAnI2ZmZmZmZidcbn07XG5jb25zdCBjYXJkTGF5b3V0ID0ge1xuICBkaXNwbGF5OiBcImdyaWRcIixcbiAgZ3JpZEdhcDogXCIxMHB4IDIwcHhcIixcbn07XG5cbmNvbnN0IGNhcmRMYXlvdXRJbm5lciA9IHtcbiAgY3Vyc29yOiBcInBvaW50ZXJcIlxufTtcblxuXG5cblxuY29uc3QgSW5kZXggPSBwcm9wcyA9PiAoXG4gIDxMYXlvdXQ+XG4gICAgPGgxPkJhdG1hbiBUViBTaG93czwvaDE+XG4gICAgPGRpdiBzdHlsZT17Y2FyZExheW91dH0+XG4gICAgICB7cHJvcHMuc2hvd3MubWFwKHNob3cgPT4gKFxuICAgICAgICA8ZGl2IHN0eWxlPXtjYXJkTGF5b3V0SW5uZXJ9PlxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICA8ZGl2IGtleT17c2hvdy5pZH0gc3R5bGU9e2NhcmRTdHlsZX0+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e3Nob3cuaW1hZ2UubWVkaXVtfSAvPlxuICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICAgICAgPGE+e3Nob3cubmFtZX08L2E+XG4gICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgPC9kaXY+XG4gICAgICApKX1cbiAgICA8L2Rpdj5cbiAgPC9MYXlvdXQ+XG4pO1xuXG5mdW5jdGlvbiBnZXRQb3N0cygpIHtcbiAgcmV0dXJuIFtcbiAgICAgIHsgaWQ6ICdhdmlzLXBvcnRmb2xpbycsIHRpdGxlOiAnV2VsY29tZSB0byBBdmlzIHJlYWN0IHBvcnRmb2xpbyd9LFxuICAgICAgeyBpZDogJ3RlY2gtc3RhY2tzJywgdGl0bGU6ICdUZWNoIFN0YWNrcyBpbSBnb29kIHdpdGgnfSxcbiAgICAgIHsgaWQ6ICdwcmV2aW91cy1wcm9qZWN0cycsIHRpdGxlOiAnUHJvamVjdHMgbWFkZSBieSBBdmkgVGFubmVuYmF1bSd9XG4gIF07XG59XG5leHBvcnQgIGZ1bmN0aW9uIE5ld3NGZWVkKCkge1xuICByZXR1cm4gKFxuPExheW91dD5cbiAgPGgxPkF2aSdzIE5ld3NGZWVkPC9oMT5cbiAgPHVsPlxuICAgIHtnZXRQb3N0cygpLm1hcChuZXdzID0+IChcbiAgICAgIDxsaSBrZXk9e25ld3MuaWR9PlxuICAgICAgICA8TGluayBocmVmPVwiL25ld3NibG9ja3MvW2lkXVwiIGFzPXtgL25ld3NibG9ja3MvJHtuZXdzLmlkfWB9PlxuICAgICAgICAgIDxhPntuZXdzLnRpdGxlfTwvYT5cbiAgICAgICAgPC9MaW5rPlxuICAgICAgPC9saT5cbiAgICApKX1cbiAgPC91bD5cbiAgICAgIHsvKiBUaGUgbmV4dC5qcyB3YXkgb2Ygc3R5bGluZyAqL31cbiAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAge2AgaDEsXG4gICAgICAgIGEge1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQXJpYWwnO1xuICAgICAgICB9XG5cbiAgICAgICAgdWwge1xuICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIH1cblxuICAgICAgICBsaSB7XG4gICAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgPC9zdHlsZT5cbjwvTGF5b3V0PlxuICApO1xufSBcbi8vIEFkZCBhIHN0YXRpYyBhc3luYyBmdW5jdGlvbiB0byBmZXRjaCBkYXRhIGZyb20gdHZtYXplIGFuZCByZXR1cm4gdGhlbSBhcyBwcm9wcy5cbkluZGV4LmdldEluaXRpYWxQcm9wcyA9IGFzeW5jIGZ1bmN0aW9uKCkge1xuICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChcImh0dHBzOi8vYXBpLnR2bWF6ZS5jb20vc2VhcmNoL3Nob3dzP3E9YmF0bWFuXCIpO1xuICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTtcblxuICBjb25zb2xlLmxvZyhgU2hvdyBkYXRhIGZldGNoZWQuIENvdW50OiAke2RhdGEubGVuZ3RofWApO1xuXG4gIHJldHVybiB7XG4gICAgc2hvd3M6IGRhdGEubWFwKGVudHJ5ID0+IGVudHJ5LnNob3cpXG4gIH07XG59O1xuXG5leHBvcnQgZGVmYXVsdCBJbmRleDsiXX0= */\n/*@ sourceURL=/Users/starshows/Desktop/portfolio/web/Portfolio-react/pages/index.js */"));
+  }, "h1.jsx-4263681031,a.jsx-4263681031{font-family:'Arial';}ul.jsx-4263681031{padding:0;}li.jsx-4263681031{list-style:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGFyc2hvd3MvRGVza3RvcC9wb3J0Zm9saW8vd2ViL1BvcnRmb2xpby1yZWFjdC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrRVEsQUFHK0IsQUFJVixBQUlNLFVBSGxCLE1BSUEsSUFSQSIsImZpbGUiOiIvVXNlcnMvc3RhcnNob3dzL0Rlc2t0b3AvcG9ydGZvbGlvL3dlYi9Qb3J0Zm9saW8tcmVhY3QvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gXCIuLi9jb21wcy9Db29sTGF5b3V0XCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgZmV0Y2ggZnJvbSBcImlzb21vcnBoaWMtdW5mZXRjaFwiO1xuXG5jb25zdCBjYXJkU3R5bGUgPSB7XG4gIGJhY2tncm91bmRDb2xvcjogXCIjNzExMzI0XCIsXG4gIGJvcmRlcjogXCJzb2xpZCAxcHggI2UwZTBlMFwiLFxuICBib3JkZXJSYWRpdXM6IFwiNHB4XCIsXG4gIHBhZGRpbmc6IFwiNXB4XCIsXG4gIGNvbG9yOiAnI2ZmZmZmZidcbn07XG5jb25zdCBjYXJkTGF5b3V0ID0ge1xuICBkaXNwbGF5OiBcImdyaWRcIixcbiAgZ3JpZEdhcDogXCIxMHB4IDIwcHhcIlxufTtcblxuY29uc3QgY2FyZExheW91dElubmVyID0ge1xuICBjdXJzb3I6IFwicG9pbnRlclwiXG59O1xuXG5cblxuY29uc3QgSW5kZXggPSBwcm9wcyA9PiAoXG4gIDxMYXlvdXQ+XG4gICAgPGgxPkJhdG1hbiBUViBTaG93czwvaDE+XG4gICAgPGRpdiBzdHlsZT17Y2FyZExheW91dH0+XG4gICAgICB7cHJvcHMuc2hvd3MubWFwKHNob3cgPT4gKFxuICAgICAgICA8ZGl2IHN0eWxlPXtjYXJkTGF5b3V0SW5uZXJ9PlxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICA8ZGl2IGtleT17c2hvdy5pZH0gc3R5bGU9e2NhcmRTdHlsZX0+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e3Nob3cuaW1hZ2UubWVkaXVtfSAvPlxuICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke3Nob3cuaWR9YH0+XG4gICAgICAgICAgICAgICAgPGE+e3Nob3cubmFtZX08L2E+XG4gICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgPC9kaXY+XG4gICAgICApKX1cbiAgICA8L2Rpdj5cbiAgPC9MYXlvdXQ+XG4pO1xuXG5mdW5jdGlvbiBnZXRQb3N0cygpIHtcbiAgcmV0dXJuIFtcbiAgICAgIHsgaWQ6ICdhdmlzLXBvcnRmb2xpbycsIHRpdGxlOiAnV2VsY29tZSB0byBBdmlzIHJlYWN0IHBvcnRmb2xpbyd9LFxuICAgICAgeyBpZDogJ3RlY2gtc3RhY2tzJywgdGl0bGU6ICdUZWNoIFN0YWNrcyBpbSBnb29kIHdpdGgnfSxcbiAgICAgIHsgaWQ6ICdwcmV2aW91cy1wcm9qZWN0cycsIHRpdGxlOiAnUHJvamVjdHMgbWFkZSBieSBBdmkgVGFubmVuYmF1bSd9XG4gIF07XG59XG5leHBvcnQgZnVuY3Rpb24gTmV3c0ZlZWQoKSB7XG4gIHJldHVybiAoXG48TGF5b3V0PlxuICA8aDE+QXZpJ3MgTmV3c0ZlZWQ8L2gxPlxuICA8dWw+XG4gICAge2dldFBvc3RzKCkubWFwKG5ld3MgPT4gKFxuICAgICAgPGxpIGtleT17bmV3cy5pZH0+XG4gICAgICAgIDxMaW5rIGhyZWY9XCIvbmV3c2Jsb2Nrcy9baWRdXCIgYXM9e2AvbmV3c2Jsb2Nrcy8ke25ld3MuaWR9YH0+XG4gICAgICAgICAgPGE+e25ld3MudGl0bGV9PC9hPlxuICAgICAgICA8L0xpbms+XG4gICAgICA8L2xpPlxuICAgICkpfVxuICA8L3VsPlxuICAgICAgey8qIFRoZSBuZXh0LmpzIHdheSBvZiBzdHlsaW5nICovfVxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICB7YCBoMSxcbiAgICAgICAgYSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XG4gICAgICAgIH1cblxuICAgICAgICB1bCB7XG4gICAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIGxpIHtcbiAgICAgICAgICBsaXN0LXN0eWxlOiBub25lO1xuICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuPC9MYXlvdXQ+XG4gICk7XG59IFxuLy8gQWRkIGEgc3RhdGljIGFzeW5jIGZ1bmN0aW9uIHRvIGZldGNoIGRhdGEgZnJvbSB0dm1hemUgYW5kIHJldHVybiB0aGVtIGFzIHByb3BzLlxuSW5kZXguZ2V0SW5pdGlhbFByb3BzID0gYXN5bmMgZnVuY3Rpb24oKSB7XG4gIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKFwiaHR0cHM6Ly9hcGkudHZtYXplLmNvbS9zZWFyY2gvc2hvd3M/cT1iYXRtYW5cIik7XG4gIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpO1xuXG4gIGNvbnNvbGUubG9nKGBTaG93IGRhdGEgZmV0Y2hlZC4gQ291bnQ6ICR7ZGF0YS5sZW5ndGh9YCk7XG5cbiAgcmV0dXJuIHtcbiAgICBzaG93czogZGF0YS5tYXAoZW50cnkgPT4gZW50cnkuc2hvdylcbiAgfTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEluZGV4OyJdfQ== */\n/*@ sourceURL=/Users/starshows/Desktop/portfolio/web/Portfolio-react/pages/index.js */"));
 } // Add a static async function to fetch data from tvmaze and return them as props.
 
 Index.getInitialProps = async function () {
@@ -190,4 +190,4 @@ Index.getInitialProps = async function () {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.1c9b9e7c0c4df3914e72.hot-update.js.map
+//# sourceMappingURL=index.js.643d06311fd9d3403cf7.hot-update.js.map

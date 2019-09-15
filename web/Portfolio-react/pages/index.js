@@ -11,13 +11,12 @@ const cardStyle = {
 };
 const cardLayout = {
   display: "grid",
-  gridGap: "10px 20px",
+  gridGap: "10px 20px"
 };
 
 const cardLayoutInner = {
   cursor: "pointer"
 };
-
 
 
 
