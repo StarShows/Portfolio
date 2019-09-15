@@ -22,3 +22,4 @@ Skill Name    | Progress        | Last commit description
 Next.js       | Deployed to prod 100% | Added support for scss and npm .
 React.js      | In progress 14%         |
 Surge.sh      | In Prod 100%         | Pushed the base code to my surge domain www.avitannenbaum.com 
+Node.js       | In progress 43%         | Created a server folder with some base express js in pr MongoDB       | Todo 0%         | Waiting to be integrated into the project 
