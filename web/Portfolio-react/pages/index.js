@@ -25,7 +25,7 @@ const Index = props => (
     <h1>Batman TV Shows</h1>
     <div style={cardLayout}>
       {props.shows.map(show => (
-        <div style={cardLayoutInner}>
+        <div key={show.id} style={cardLayoutInner}>
           <Link href="/newsblocks/[id]" as={`/newsblocks/${show.id}`}>
             <div key={show.id} style={cardStyle}>
               <Link href="/newsblocks/[id]" as={`/newsblocks/${show.id}`}>
@@ -49,6 +49,7 @@ function getPosts() {
       { id: 'previous-projects', title: 'Projects made by Avi Tannenbaum'}
   ];
 }
+/*
 export function NewsFeed() {
   return (
 <Layout>
@@ -62,7 +63,6 @@ export function NewsFeed() {
       </li>
     ))}
   </ul>
-      {/* The next.js way of styling */}
       <style jsx>
        {` h1,
         a {
@@ -81,6 +81,7 @@ export function NewsFeed() {
 </Layout>
   );
 } 
+*/
 // Add a static async function to fetch data from tvmaze and return them as props.
 Index.getInitialProps = async function() {
   const res = await fetch("https://api.tvmaze.com/search/shows?q=batman");

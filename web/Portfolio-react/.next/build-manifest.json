@@ -1,24 +1,60 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_92fa9139568d8c3d8f78.js",
-    "static/development/dll/dll_92fa9139568d8c3d8f78.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/newsblock": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/newsblocks/[id]": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/portfolio": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/tools": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/tools/AnimatedSvgs": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
+    ],
+    "/tools/[tool]": [
+      "static/runtime/webpack-3df6523e264ff2ac6548.js",
+      "static/chunks/commons.a0ed8a7ef3f2af6757c5.js",
+      "static/runtime/main-a7aa99aa196675364a5f.js"
     ]
   }
 }

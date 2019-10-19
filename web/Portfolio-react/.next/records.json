@@ -1,0 +1,49 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/_app.js": 3,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/_error.js": 4,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/about.js": 5,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/index.js": 6,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/newsblock.js": 7,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/newsblocks/[id].js": 8,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/portfolio.js": 9,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/tools.js": 10,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/tools/AnimatedSvgs.js": 11,
+      "static/t2jcYaWBIs1nVAkwf6PTo/pages/tools/[tool].js": 12,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/_app.js": 13,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/_error.js": 14,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/about.js": 15,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/index.js": 16,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/newsblock.js": 17,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/newsblocks/[id].js": 18,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/portfolio.js": 19,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/tools.js": 20,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/tools/AnimatedSvgs.js": 21,
+      "static/TwDeugzHeVQ3LxfI8j4Be/pages/tools/[tool].js": 22
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      22
+    ]
+  }
+}
