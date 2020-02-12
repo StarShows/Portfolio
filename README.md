@@ -26,3 +26,5 @@ Node.js       | In progress 43%         | Created a server folder with some base
 Leetcode / Algorithms | In progress 36% | see algorithms directory in this repository. 
 Python | In progress 86%| developing apache airflow automation flows  
 Javascript ES6 | In progress 96% | Ongoing practice. 
+Flutter | In progress 3% | Ongoing practice. 
+Express.js | In progress 100% | Built backend express REST API endpoints. 
