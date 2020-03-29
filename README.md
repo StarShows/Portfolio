@@ -15,7 +15,7 @@ https://portfolio-react.starshows.now.sh
 
 
 
-As of date: Sept 11 2019
+As of date: March 29 2020
 
 Skill Name    | Progress        | Last commit description
 ------------- | -------------   | -------------------------
