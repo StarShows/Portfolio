@@ -1,14 +1,92 @@
+
+
+
+
+
+body {
+  margin: 0;
+  background-color: black;
+  line-height: 1.4;
+}
+
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+}
+
+
 .link {
   cursor: pointer;
 }
-$text-color: #fff;
+$text-color: #FFE81F;
 .container {
-  background-image: url(../images/background.png);
+
+.intro {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  animation: intro 6s ease-out 1s;
+  color: #FFE81F;
+  opacity: 0;
+  transition: all .2s ease-in-out; 
+  &:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 232, 31, 1);
+    color: #000000;
+  }
+  height: 0px;
+  background-color: #000;
+  border-radius: 4px;
+  border: solid 2px rgba(255, 232, 31, 0.28);
+  padding: 10px;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgba(255, 232, 31, 0.8);
+  margin-bottom: 16px;
+}
+
+@keyframes intro {
+  0% {
+      opacity: 0;
+      height: 0px;
+
+  }
+  10% {
+    height: 50%;
+  }
+  20% {
+      opacity: 1;
+      height: auto;
+  }
+  90% {
+
+      opacity: 1;
+      height: auto;
+
+  }
+  95% {
+    height: 50%;
+  }
+  100% {
+      opacity: 0;
+      height: 0px;
+
+  }
+}
+
+  background: rgb(153,0,0);
+  background: -moz-linear-gradient(148deg, rgba(153,0,0,1) 0%, rgba(17,16,0,1) 50%, rgba(0,35,149,1) 100%);
+  background: -webkit-linear-gradient(148deg, rgba(153,0,0,1) 0%, rgba(17,16,0,1) 50%, rgba(0,35,149,1) 100%);
+  background: linear-gradient(148deg, rgba(153,0,0,1) 0%, rgba(17,16,0,1) 50%, rgba(0,35,149,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#990000",endColorstr="#002395",GradientType=1);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(199,146,115,1);
+  background-color: #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +98,6 @@ $text-color: #fff;
   display: flex;
   flex-direction: column;
   &_inner {
-    border: solid 2px #000;
     border-radius: 4px;
     padding: 23px;
     margin: 25px;
@@ -35,29 +112,47 @@ $text-color: #fff;
       align-items: center;
       width: 100%;
       &_image {
+        transition: all .2s ease-in-out; 
+        &:hover{
+          transform: scale(1.1);
+        }
         height: auto;
         width: auto;
         max-width: 250px;
-        padding: 8px;
-        border-radius: 100%;
-        border: solid 7px #515555;
-        box-shadow: lightgrey 0px 0px 27px 3px;
+        padding: 18px;
+        border-radius: 25px;
+        border: solid 6px #FFE81F;
+        box-shadow: 000000 0px 0px 27px 3px;
+        color: #000000;
+    
       }
     }
   }
   .header {
+    transition: all .2s ease-in-out; 
+    &:hover{
+      transform: scale(1.1);
+      background-color: rgba(255, 232, 31, 1);
+      color: #000000;
+    }
     &.mobile_only {
       display: none;
     }
-    background-color: rgba(150, 150, 150, 0.28);
+    &.click {
+      &:hover{
+        color: white;
+      }
+      cursor: pointer;
+    }
+    background-color: #000;
     border-radius: 4px;
-    border: solid 2px rgba(150, 150, 150, 0.28);
+    border: solid 2px rgba(255, 232, 31, 0.28);
     padding: 10px;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
     text-align: center;
-    color: #000;
+    color: rgba(255, 232, 31, 0.80);
     margin-bottom: 16px;
     &.h2 {
       font-size: 20px;
@@ -70,7 +165,7 @@ $text-color: #fff;
         width: auto;
         font-family: sans-serif;
         padding: 10px;
-        background-color: rgba(236, 36, 58,0.6);
+        background-color: rgba(153, 0, 0,0.6);
         transition: background-color 0.3s;
         cursor: pointer;
         display: flex;

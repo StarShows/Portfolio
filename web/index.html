@@ -12,30 +12,42 @@
 <body class="container">
     <!-- Hi there, fellow developer. thanks for inspecting my site. I just wanted to point out in case you did not yet notice, I take great pride in making sure my code is clean, accessible, mobile-friendly, cross-browser tested and pixel perfected. take some time, inspect the structure of this site. and have fun. I'm currently looking to be hired. so please shoot me an email if you're looking for a web developer. starshows@gmail.com -->
     <section class="container_inner">
+        <section class="intro">
+           <h1>A long time ago, in a galaxy far,<br> far away....</h1> 
+          </section>
         <section class="avatar">
             <a href="https://www.linkedin.com/in/starshowsstudios/" target="_blank" class="link" tabindex="0"
                 title="Click here to go to Alex (Avi) Tannenbaum's Linkedin profile" accesskey="l">
-                <img class="avatar_image" src="images/avitannenbaum.jpeg" alt="Avi (Alex) Tannenbaum Profile Image">
+                <video class="avatar_image video" width="100%" loop="true" autoplay="true" muted="true" poster="images/me.jpg">
+                    <source src="images/1.mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video tag.
+                </video>
+                <!-- <img class="avatar_image" src="images/avitannenbaum.jpeg" alt="Avi (Alex) Tannenbaum Profile Image"> -->
             </a>
         </section>
-        <h1 class="header"> Welcome to Alex (Avi) Tannenbaum's portfolio website </h1>
-        <h1 class="header mobile_only">Wow! So responsive! </h1>
+        <h1 class="header"> There was a developer named Alex (Avi) Tannenbaum</h1>
+        <h1 class="header"> He really loved code. </h1>
+        <h1 class="header mobile_only">Some say, he was the best Responsive UI Developer in the galaxy! </h1>
 
-        <h2 class="header h2"> Im a full stack javascript engineer. </h2>
-        <h3 class="header_third">Under construction</h3>
-        <p class="paragraph">Im currently working on other projects and skill-sets. on my little spare time, I intend to add some projects I have worked on here.</p>
+        <h2 class="header h2"> Alex was a Language agnostic Software Engineer </h2>
+        <h2 class="header h2"> and was really Good with Javascript, shell, python, PHP, REACT, CSS, HTML, Responsive UI,
+            Node.js, Wordpress, Linux, SQL, git and more.</h2>
+        <h2 class="header h2 click" onClick="navigateTo('https://github.com/StarShows/', true)"> Linked is his github to
+            see what other technologies alex working on has he. </h2>
+        <p class="paragraph">A very busy jedi was alex, working on many different projects and skill-sets across the lands. on his little spare time, Alex tends this
+            portfolio project.</p>
         <section class="content">
             <div class="portfolio_item" tabindex="1">
-                Meanwhile checkout my <div class="button" title="Avi Tannenbaum's Github"
+                Please, checkout Alex's <div class="button" title="Avi Tannenbaum's Github"
                     onClick="navigateTo('https://github.com/StarShows/Portfolio/', true)">Github</div> portfolio
                 repository, it has all the latest code for this portfolio project, Including a new React.js front end
-                and node.js backend im developing for this.
+                and node.js backend alex is developing for this.
             </div>
             <div class="portfolio_item" tabindex="2">
-                <p class="paragraph"> Also, heres a copy of my most up to date CV</p> 
-                <div class="button"
-                    title="Avi Tannenbaum's CV" onClick="navigateTo('https://drive.google.com/file/d/13lYbKqmMxwyBeG_zGnuM0lokqD6jMlJH/view?usp=drivesdk')">Download my
-                    resume</div>
+                <p class="paragraph"> Also, heres a copy of Alex's most up to date CV</p>
+                <div class="button" title="Avi Tannenbaum's CV"
+                    onClick="navigateTo('https://drive.google.com/file/d/13lYbKqmMxwyBeG_zGnuM0lokqD6jMlJH/view?usp=drivesdk')">
+                    Download click here, you must!</div>
             </div>
             <div class="portfolio_item" tabindex="3">
                 <p class="paragraph"> Here is my linkedIn profile: <a
@@ -48,8 +60,8 @@
             </section>
         </section>
         <footer class="footer">
-            <p class="paragraph_footer">© Avi (Alex) Tannenbaum - 2019. This site was built with pure html, scss and
-                JavascriptES6. there is a subdirectory with a new React.js v13 project coming soon. </p>
+            <p class="paragraph_footer">© Avi (Alex) Tannenbaum - 2020. This site was built with pure html, scss and
+                JavascriptES6. there is a subdirectory with a new React.js project coming soon. </p>
             <p class="hint">Hint to recruiters: Inspect this page for a secret message!</p>
         </footer>
         <!-- For faster loading, keep the script in the bottom-->
@@ -58,6 +70,8 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42339063-2"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/starBackground.js"></script>
+
 </body>
 
 </html>
