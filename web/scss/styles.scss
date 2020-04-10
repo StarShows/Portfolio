@@ -42,7 +42,9 @@ $text-color: #FFE81F;
   border: solid 2px rgba(255, 232, 31, 0.28);
   padding: 10px;
   justify-content: center;
-  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   text-align: center;
   color: rgba(255, 232, 31, 0.8);
   margin-bottom: 16px;
@@ -140,7 +142,7 @@ $text-color: #FFE81F;
     }
     &.click {
       &:hover{
-        color: white;
+        color: #000;
       }
       cursor: pointer;
     }
@@ -150,7 +152,10 @@ $text-color: #FFE81F;
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+
     text-align: center;
     color: rgba(255, 232, 31, 0.80);
     margin-bottom: 16px;
@@ -163,7 +168,10 @@ $text-color: #FFE81F;
     .portfolio_item {
       .button {
         width: auto;
-        font-family: sans-serif;
+        font-weight: 600;
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        line-height: 1.6;
+
         padding: 10px;
         background-color: rgba(153, 0, 0,0.6);
         transition: background-color 0.3s;
