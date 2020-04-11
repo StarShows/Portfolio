@@ -13,6 +13,9 @@ body {
   cursor: pointer; }
 
 .container {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) scale(0.85);
+  position: absolute;
   background: #990000;
   background: -moz-linear-gradient(148deg, #990000 0%, #111000 50%, #002395 100%);
   background: -webkit-linear-gradient(148deg, #990000 0%, #111000 50%, #002395 100%);

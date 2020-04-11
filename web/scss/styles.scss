@@ -78,7 +78,9 @@ $text-color: #FFE81F;
 
   }
 }
-
+transform-style: preserve-3d;
+transform: rotateX(0deg) scale(0.85);
+position: absolute;
   background: rgb(153,0,0);
   background: -moz-linear-gradient(148deg, rgba(153,0,0,1) 0%, rgba(17,16,0,1) 50%, rgba(0,35,149,1) 100%);
   background: -webkit-linear-gradient(148deg, rgba(153,0,0,1) 0%, rgba(17,16,0,1) 50%, rgba(0,35,149,1) 100%);
@@ -165,6 +167,7 @@ $text-color: #FFE81F;
     }
   }
   .content {
+   
     .portfolio_item {
       .button {
         width: auto;
