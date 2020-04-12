@@ -11,7 +11,10 @@ section.sky {
   position: fixed; }
 
 .layer2 {
-  position: absolute; }
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 @keyframes curtain {
   0% {
@@ -32,9 +35,10 @@ section.sky {
   cursor: url("../images/babyyodapointer.svg"), pointer; }
 
 .container {
-  perspective: 400px;
+  perspective: 650px;
+  transform-origin: center;
   transform-style: preserve-3d;
-  transform: translateZ(20px) scale(0.85);
+  transform: scale(0.85);
   position: absolute;
   border-radius: 25px;
   background: #990000;
@@ -56,7 +60,9 @@ section.sky {
   width: 100%;
   margin: 0px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .container .intro {
     position: absolute;
     display: flex;
@@ -64,7 +70,6 @@ section.sky {
     animation: intro 8s ease-out;
     color: #ffe81f;
     opacity: 0;
-    transform-origin: 50% 100%;
     transform: scale(0.01);
     max-height: auto;
     background-color: rgba(0, 0, 0, 0.8);
@@ -88,16 +93,17 @@ section.sky {
 @keyframes intro {
   0% {
     opacity: 0;
-    bottom: 0px;
-    transform: rotateX(20deg) translateZ(100px); }
+    top: 500px;
+    transform: rotateX(20deg) translateZ(100px) scale(3); }
   5% {
     opacity: 1; }
   80% {
-    opacity: 1; }
+    opacity: 1;
+    transform: rotateX(20deg) translateZ(-2500px) scale(2.5); }
   100% {
     opacity: 0;
-    bottom: 200vh;
-    transform: rotateX(20deg) translateZ(-2500px); } }
+    top: 0px;
+    transform: rotateX(20deg) translateZ(-2500px) scale(1); } }
   .container_inner {
     border-radius: 4px;
     padding: 23px;
@@ -136,7 +142,7 @@ section.sky {
     color: rgba(255, 232, 31, 0.8);
     margin-bottom: 16px; }
     .container .header:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
       background-color: #ffe81f;
       color: #000000; }
     .container .header.mobile_only {

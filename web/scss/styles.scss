@@ -14,6 +14,9 @@ section.sky {
 
 .layer2 {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes curtain {
@@ -41,8 +44,8 @@ section.sky {
 }
 $text-color: #ffe81f;
 .container {
-  perspective: 400px;
-
+   perspective: 650px;
+   transform-origin: center;
   .intro {
     position: absolute;
     display: flex;
@@ -50,7 +53,7 @@ $text-color: #ffe81f;
     animation: intro 8s ease-out;
     color: #ffe81f;
     opacity: 0;
-    transform-origin: 50% 100%;
+    // transform-origin: 50% 100%;
     transform: scale(0.01);
 
     &:hover {
@@ -77,8 +80,8 @@ $text-color: #ffe81f;
   @keyframes intro {
     0% {
       opacity: 0;
-      bottom: 0px;
-      transform: rotateX(20deg) translateZ(100px);
+      top: 500px;
+      transform: rotateX(20deg) translateZ(100px) scale(3);
     }
     5% {
       opacity: 1;
@@ -86,15 +89,16 @@ $text-color: #ffe81f;
 
     80% {
       opacity: 1;
+      transform:rotateX(20deg) translateZ(-2500px) scale(2.5);
     }
     100% {
       opacity: 0;
-      bottom: 200vh;
-      transform: rotateX(20deg) translateZ(-2500px);
+      top: 0px;
+      transform: rotateX(20deg) translateZ(-2500px) scale(1);
     }
   }
   transform-style: preserve-3d;
-  transform: translateZ(20px) scale(0.85);
+  transform: scale(0.85);
   position: absolute;
   border-radius: 25px;
   background: rgb(153, 0, 0);
@@ -132,6 +136,8 @@ $text-color: #ffe81f;
   margin: 0px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &_inner {
     border-radius: 4px;
     padding: 23px;
@@ -165,7 +171,7 @@ $text-color: #ffe81f;
   .header {
     transition: all 0.2s ease-in-out;
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
       background-color: rgba(255, 232, 31, 1);
       color: #000000;
     }
