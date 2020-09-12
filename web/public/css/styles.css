@@ -32,7 +32,8 @@ section.sky {
   background-color: white; }
 
 .link {
-  cursor: url("../images/babyyodapointer.svg"), pointer; }
+  cursor: url("../images/babyyodapointer.svg"), pointer;
+  text-decoration: underline; }
 
 .container {
   perspective: 650px;
